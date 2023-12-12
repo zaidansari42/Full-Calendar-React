@@ -1,6 +1,7 @@
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import './App.css';
+import techEvents from './data/events';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           end: 'today prev,next' // Will give us the option of the buttons on the right to navigate
         }}
         plugins={[dayGridPlugin]} // Calendar View type
-        events={[]} // List of all the events to be displayed
+        events={techEvents} // List of all the events to be displayed
       />
     </div>
   );

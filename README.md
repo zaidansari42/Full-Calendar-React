@@ -1,7 +1,3 @@
-Certainly! Below is a basic README template for the Full-Calendar-React repository. Please make sure to customize it further based on the specifics of your project.
-
----
-
 # Full-Calendar-React
 
 This is a simple React application integrating the FullCalendar library to display and manage events in a calendar format.
